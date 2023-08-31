@@ -1,0 +1,13 @@
+GET http://localhost:5003/products/
+
+###
+GET http://localhost:5003/products/1
+
+###
+POST http://localhost:5003/products
+Content-Type : application/json
+
+{
+    "name": "ezra",
+    "price": 1000
+}
